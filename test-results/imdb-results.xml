@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.006">
+    <testcase classname="Getting detail of oscar winner" name="Checking oscar winner in specifc year with category" time="7.259">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given I go to IMDb website..................................................failed
+And I navigate to webpage of Oscars.........................................skipped
+When I search in following category.........................................skipped
+Then I see winner is Emil Jannings..........................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+	at demo.imdb.steps.SearchByGenreTest.gotoIMDbWebsite(SearchByGenreTest.java:44)
+	at ✽.I go to IMDb website(file:///C:/Users/Sayantan/eclipse-workspace/selenium_demo/src/test/java/demo/imdb/features/Oscar.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>

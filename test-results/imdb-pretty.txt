@@ -1,0 +1,11 @@
+
+@Oscar
+Scenario: Checking oscar winner in specifc year with category [90m# src/test/java/demo/imdb/features/Oscar.feature:5[0m
+  [31mGiven [0m[31mI go to IMDb website[0m                                  [90m# demo.imdb.steps.SearchByGenreTest.gotoIMDbWebsite()[0m
+      [31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+	at demo.imdb.steps.SearchByGenreTest.gotoIMDbWebsite(SearchByGenreTest.java:44)
+	at ✽.I go to IMDb website(file:///C:/Users/Sayantan/eclipse-workspace/selenium_demo/src/test/java/demo/imdb/features/Oscar.feature:6)
+[0m
+  [36mAnd [0m[36mI navigate to webpage of Oscars[0m                         [90m# demo.imdb.steps.OscarByCategory.i_navigate_to_webpage_of_oscars()[0m
+  [36mWhen [0m[36mI search in following category[0m                         [90m# demo.imdb.steps.OscarByCategory.i_search_in_following_category(io.cucumber.datatable.DataTable)[0m
+  [36mThen [0m[36mI see winner is Emil Jannings[0m                          [90m# demo.imdb.steps.OscarByCategory.i_see_winner_is_emil_jannings()[0m
