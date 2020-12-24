@@ -1,4 +1,4 @@
-package IMDbGenre.runner;
+package demo.imdb.runner;
 
 import org.junit.runner.RunWith;
 
