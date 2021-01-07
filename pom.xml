@@ -8,7 +8,8 @@
 	<name>Selenium Tests</name>
 	<description>Automate user interaction using selenium and testing them
 		using BDD framwework CUCMBER with gherkins. J-units used as test
-		runner </description>
+		runner
+	</description>
 	<developers>
 		<developer>
 			<name> Sayantan Dey </name>
@@ -28,19 +29,17 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>6.6.0</version>
 		</dependency>
-		<!-- To have a reporting tool to interlink between different feature file -->
+		<!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-junit</artifactId> 
+			<version>6.6.0</version> <scope>test</scope> </dependency> -->
+
 		<dependency>
 			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>6.6.0</version>
-			<scope>test</scope>
+			<artifactId>cucumber-jvm</artifactId>
+			<version>6.9.1</version>
+			<type>pom</type>
 		</dependency>
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.9.8</version>
-			<scope>test</scope>
-		</dependency>
+		<!-- <dependency> <groupId>org.testng</groupId> <artifactId>testng</artifactId> 
+			<version>6.9.8</version> <scope>test</scope> </dependency> -->
 		<dependency>
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
